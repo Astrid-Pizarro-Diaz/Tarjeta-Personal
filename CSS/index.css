@@ -1,0 +1,64 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    background-image: url(https://media.istockphoto.com/photos/hand-painted-blue-and-pink-watercolor-background-picture-id1273660895?b=1&k=6&m=1273660895&s=170667a&w=0&h=7B-uHis26Pff-J0Jy5CiLvWoFt3D_oP74OuTYTJoGF4=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(32, 31, 30);
+    margin: 0;
+}
+
+main{
+    max-width: 426px;
+    background-color: rgba(97, 187, 194, 0.5);
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 16px;
+    transition: all 0.5s;
+    }
+
+img {
+border-radius: 50%;
+width: 100%;
+max-width: 300px;
+}
+
+h2{
+    letter-spacing: 2px;
+}
+
+p{
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+h1{
+    margin: 16px 0;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.footer__img{
+    border-radius: 0;
+    width: 32px;
+    transition: all 0.5s;
+}
+
+.footer__img:hover {
+    filter: brightness(150%);
+    transform: scale(1.2);
+}
+
+@media (min-width: 854px) {
+    body {
+        font-size: 16px;
+    }
+
+    main{
+        max-width: 640px;
+        }
+}
